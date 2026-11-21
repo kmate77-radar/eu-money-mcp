@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "hu.eumoney/eu-money",
+  "title": "EU Money",
+  "description": "Magyar uniós pályázatok, feltételek, összegek, határidők és útmutatók forrásolt keresője.",
+  "version": "1.0.1",
+  "websiteUrl": "https://eumoney.hu/ai-integraciok",
+  "icons": [
+    {
+      "src": "https://eumoney.hu/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://eumoney.hu/chatgpt/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/kmate77-radar/eu-money-mcp",
+    "source": "github"
+  }
+}
